@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    transform: scale(.5);
+}
+
+#numberGenerator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 900px;
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.numberBox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    border: 1px solid black;
+    font-size: 3em;
+}
+
+.generateBtn {
+    position: absolute;
+    bottom: -28px;
+}
